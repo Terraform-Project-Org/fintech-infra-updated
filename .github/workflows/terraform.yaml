@@ -50,6 +50,10 @@ jobs:
           echo "Looking in './${{ env.TF_DIR }}'"
           ls -l ./${{ env.TF_DIR }}
 
+      # - name: Terraform fmt
+      #   working-directory: ${{ env.TF_DIR }}
+      #   run: terraform fmt -check -recursive
+
       - name: Terraform fmt
         working-directory: ${{ env.TF_DIR }}
         run: terraform fmt -check
