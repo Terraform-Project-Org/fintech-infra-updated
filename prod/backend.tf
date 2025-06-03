@@ -2,7 +2,7 @@ terraform {
   required_version = ">=0.12.0"
   backend "s3" {
     key            = "prod/terraform.state"
-    bucket         = "infra-tech-bucket"
+    bucket         = "infra-tech-east-bucket"
     region         = "us-east-1"
     dynamodb_table = "terraform-state-locking-project"
   }
