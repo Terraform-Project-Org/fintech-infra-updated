@@ -9,7 +9,7 @@ terraform {
 }
 
 
- # key            = "prod/terraform.state"
-    # bucket         = "infra-tech-bucket"
-    # region         = "us-east-1"
-    # dynamodb_table = "terraform-state-locking-project"
+# key            = "prod/terraform.state"
+# bucket         = "infra-tech-bucket"
+# region         = "us-east-1"
+# dynamodb_table = "terraform-state-locking-project"
